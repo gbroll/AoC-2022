@@ -44,7 +44,7 @@ void solve_day_06(__uint16_t* results)
 
     char ch;
     u16 count = 0;
-    while((ch = fgetc(inputFile)))
+    while((ch = fgetc(inputFile)) != EOF)
     {
         if (results[PART_ONE] & results[PART_TWO])
         {
